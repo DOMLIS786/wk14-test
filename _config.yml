@@ -1,0 +1,5 @@
+title: "Tech Help for Everyone"
+collections:
+  services:
+    output: true
+    permalink: /services/:title/

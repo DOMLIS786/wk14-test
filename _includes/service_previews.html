@@ -1,0 +1,5 @@
+{% for service in site.services %}
+  <h3>{{ service.title }}</h3>
+  <p>{{ service.summary }}</p>
+  <a href="{{ service.url }}">Learn more</a>
+{% endfor %}
